@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace LVI\Tests;
 
-use LVI\NvmeriRomani;
 use LVI\Traslitterazione;
 use PHPUnit\Framework\TestCase;
 

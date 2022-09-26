@@ -21,6 +21,7 @@ $config
         'declare_strict_types' => true,
         'multiline_whitespace_before_semicolons' => ['strategy' => 'new_line_for_chained_calls'],
         'ordered_imports' => true,
+        'no_unused_imports' => true,
         'phpdoc_to_comment' => false,
         'visibility_required' => ['elements' => ['property', 'method', 'const']],
         'escape_implicit_backslashes' => ['single_quoted' => true],
