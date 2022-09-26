@@ -17,6 +17,10 @@ class NvmeriRomani implements PassoDiTradvzione
 
     public function tradvci(string $messaggio): string
     {
-        return $this->filter->filter((int) $messaggio);
+        return preg_replace_callback(
+            '/\d+/',
+            fn(array $matches) => $this->filter->filter((int) $matches[0]),
+            $messaggio
+        );
     }
 }

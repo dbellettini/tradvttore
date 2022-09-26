@@ -20,4 +20,9 @@ class NvmeriRomaniTest extends TestCase
     {
         $this->assertSame('LVI', $this->nr->tradvci('56'));
     }
+
+    public function testIlRestoVienePreservato(): void
+    {
+        $this->assertSame('salute a LVI', $this->nr->tradvci('salute a 56'));
+    }
 }
