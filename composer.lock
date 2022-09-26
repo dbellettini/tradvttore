@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8d8020702e379189c8218e858e5de26a",
+    "content-hash": "56ba98783bc488a10448395302831ed7",
     "packages": [
         {
             "name": "wandersonwhcr/romans",
@@ -3760,7 +3760,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.0",
+        "php": "^8.1",
         "ext-intl": "*"
     },
     "platform-dev": [],
