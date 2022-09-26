@@ -2,6 +2,16 @@
     "name": "dbellettini/tradvttore",
     "description": "PER VN ITALIANO ADATTO AI NOSTRI TEMPI",
     "license": "AGPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "LVI\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LVI\\Tests\\": "tests/"
+        }
+    },
     "require": {
         "php": "^8.0",
         "wandersonwhcr/romans": "^1.5"
