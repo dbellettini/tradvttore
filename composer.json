@@ -1,0 +1,14 @@
+{
+    "name": "dbellettini/tradvttore",
+    "description": "PER VN ITALIANO ADATTO AI NOSTRI TEMPI",
+    "license": "AGPL-3.0-or-later",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
