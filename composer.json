@@ -14,6 +14,7 @@
     },
     "require": {
         "php": "^8.0",
+        "ext-intl": "*",
         "wandersonwhcr/romans": "^1.5"
     },
     "require-dev": {
