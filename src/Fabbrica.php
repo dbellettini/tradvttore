@@ -10,6 +10,7 @@ class Fabbrica
     {
         return new TradvttoreComposto(
             new NoSchwa(),
+            SostituisciParole::predefinito(),
             new NvmeriRomani(),
             new Traslitterazione()
         );

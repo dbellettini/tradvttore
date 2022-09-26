@@ -31,4 +31,12 @@ class FabbricaTest extends TestCase
     {
         $this->assertSame("NO ALL'IDEOLOGIA GENDER!", $this->tradvttore->tradvci('Ciao a tuttə!'));
     }
+
+    public function testMisto(): void
+    {
+        $this->assertSame(
+            'HO AVVTO VN RETROLAMPO DEL MCMXXX',
+            $this->tradvttore->tradvci('Ho avuto un flashback del 1930')
+        );
+    }
 }
