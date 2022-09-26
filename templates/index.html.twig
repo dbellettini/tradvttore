@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<h1>TRADVTTORE</h1>
+<h2>PER VN ITALIANO ADATTO AI NOSTRI TEMPI.</h2>
+<form method="post">
+    <textarea cols="100" rows="20" name="testo"></textarea><br/>
+    <button name="traduci" type="submit">TRADVCI</button>
+</form>
+{% if testo %}
+<h2>TRADVZIONE</h2>
+<p>{{ testo }}</p>
+{% endif %}
+</body>
+</html>
