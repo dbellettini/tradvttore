@@ -26,4 +26,9 @@ class FabbricaTest extends TestCase
             $this->tradvttore->tradvci("Quando c'era 56 i treni arrivavano in orario")
         );
     }
+
+    public function testSchwa(): void
+    {
+        $this->assertSame("NO ALL'IDEOLOGIA GENDER!", $this->tradvttore->tradvci('Ciao a tuttə!'));
+    }
 }

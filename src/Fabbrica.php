@@ -9,6 +9,7 @@ class Fabbrica
     public function costrvisci(): PassoDiTradvzione
     {
         return new TradvttoreComposto(
+            new NoSchwa(),
             new NvmeriRomani(),
             new Traslitterazione()
         );
