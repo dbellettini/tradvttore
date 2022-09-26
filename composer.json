@@ -15,7 +15,9 @@
     "require": {
         "php": "^8.1",
         "ext-intl": "*",
+        "slim/psr7": "^1.5",
         "slim/slim": "^4.10",
+        "slim/twig-view": "^3.3",
         "wandersonwhcr/romans": "^1.5"
     },
     "require-dev": {
