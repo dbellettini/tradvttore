@@ -17,6 +17,6 @@ class Traslitterazione implements PassoDiTradvzione
 
     public function tradvci(string $messaggio): string
     {
-        return str_replace('U','V', $this->transliterator->transliterate($messaggio));
+        return str_replace('U', 'V', $this->transliterator->transliterate($messaggio));
     }
 }

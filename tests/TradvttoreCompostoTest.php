@@ -11,7 +11,8 @@ use PHPUnit\Framework\TestCase;
 
 class TradvttoreCompostoTest extends TestCase
 {
-    private PassoDiTradvzione&MockObject $passo1, $passo2;
+    private PassoDiTradvzione&MockObject $passo1;
+    private PassoDiTradvzione&MockObject $passo2;
     private TradvttoreComposto $tradvttore;
 
     protected function setUp(): void

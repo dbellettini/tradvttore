@@ -19,7 +19,7 @@ class NvmeriRomani implements PassoDiTradvzione
     {
         return preg_replace_callback(
             '/\d+/',
-            fn(array $matches) => $this->filter->filter((int) $matches[0]),
+            fn (array $matches) => $this->filter->filter((int) $matches[0]),
             $messaggio
         );
     }
