@@ -29,14 +29,16 @@ class TradvttoreCompostoTest extends TestCase
             ->expects($this->once())
             ->method('tradvci')
             ->with('Tizio')
-            ->willReturn('Caio');
+            ->willReturn('Caio')
+        ;
 
         $this
             ->passo2
             ->expects($this->once())
             ->method('tradvci')
             ->with('Caio')
-            ->willReturn('Sempronio');
+            ->willReturn('Sempronio')
+        ;
 
         $this->assertSame('Sempronio', $this->tradvttore->tradvci('Tizio'));
     }
