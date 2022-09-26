@@ -17,6 +17,7 @@
         "wandersonwhcr/romans": "^1.5"
     },
     "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.11",
         "phpunit/phpunit": "^9.5"
     },
     "config": {
