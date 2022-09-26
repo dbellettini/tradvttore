@@ -33,13 +33,14 @@ $app->post('/', function (Request $request, Response $response) {
         $fabbrica = new Fabbrica();
         $tradvttore = $fabbrica->costrvisci();
 
-        $testo = $tradvttore->tradvci($body['testo']);
+        $testo = $tradvttore->tradvci($originale = $body['testo']);
     } else {
         $testo = null;
     }
 
     return $view->render($response, 'index.html.twig', [
         'testo' => $testo,
+        'originale' => $originale ?? null,
     ]);
 })->setName('homepage');
 
