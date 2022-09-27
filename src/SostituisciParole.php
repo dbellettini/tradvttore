@@ -7,9 +7,9 @@ namespace LVI;
 final class SostituisciParole implements PassoDiTradvzione
 {
     /**
-     * @param array<string,string> $sostituzioni
+     * @param array<string,string> $sostitvzioni
      */
-    public function __construct(private readonly array $sostituzioni)
+    public function __construct(private readonly array $sostitvzioni)
     {
     }
 
@@ -20,6 +20,6 @@ final class SostituisciParole implements PassoDiTradvzione
 
     public function tradvci(string $messaggio): string
     {
-        return str_ireplace(array_keys($this->sostituzioni), array_values($this->sostituzioni), $messaggio);
+        return str_ireplace(array_keys($this->sostitvzioni), array_values($this->sostitvzioni), $messaggio);
     }
 }
