@@ -29,7 +29,7 @@ class FabbricaTest extends TestCase
 
     public function testSchwa(): void
     {
-        $this->assertSame("NO ALL'IDEOLOGIA GENDER!", $this->tradvttore->tradvci('Ciao a tuttə!'));
+        $this->assertSame("NO ALL'IDEOLOGIA DI GENERE!", $this->tradvttore->tradvci('Ciao a tuttə!'));
     }
 
     public function testMisto(): void

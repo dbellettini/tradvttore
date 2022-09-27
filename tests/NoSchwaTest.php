@@ -22,6 +22,6 @@ class NoSchwaTest extends TestCase
 
     public function testSchwa(): void
     {
-        $this->assertSame("No all'ideologia Gender!", $this->noSchwa->tradvci('Ciao a tuttə!'));
+        $this->assertSame("No all'ideologia di genere!", $this->noSchwa->tradvci('Ciao a tuttə!'));
     }
 }
